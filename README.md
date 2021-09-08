@@ -1,23 +1,100 @@
-# Travel Advisor
+# React-Maps-Travel
 
-![Travel Advisor](https://i.ibb.co/qph2cZn/image.pngg)
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#setup">Setup</a></li>
+      </ul>
+    </li>
+    <li><a href="#How-to-Use-Your-Project">How to Use Your Project </a></li>
+    <li><a href="#Include-Credits">Include Credits</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-## Introduction
-Build and Deploy an advanced Travel Companion Application using Google Maps. With Geolocation, Google Maps API, Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs, data filtering and much more, this Travel Advisor App is the best Maps Application that you can currently find on YouTube and on the entire internet.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-In this video, you'll learn:
+![](https://github.com/Werayootk/React-Maps-Travel/blob/main/images/map.PNG)
 
-- Advanced React Best Practices such as folder & file structure, hooks and refs
-- Creating a User Interface using Material UI
-- Working with Google Maps API
-- And most importantly fetching data from unlimited sources using RapidAPI
-- Essentially, you'll become the master of working with APIs
+This project create for practice React-ROUTER skill.
 
-[RapidAPI](https://rapidapi.com/hub?utm_source=youtube.com/JavaScriptMastery&utm_medium=DevRel&utm_campaign=DevRel)
-[Travel Advisor API](https://rapidapi.com/apidojo/api/travel-advisor?utm_source=youtube.com/JavaScriptMastery&utm_medium=DevRel&utm_campaign=DevRel)
-[Open Weather Map API](https://rapidapi.com/community/api/open-weather-map?utm_source=youtube.com/JavaScriptMastery&utm_medium=DevRel&utm_campaign=DevRel)
+### Built With
 
-## Stay up to date with new projects
-New major projects coming soon, subscribe to the mailing list to stay up to date https://javascriptmastery.eo.page/mailing-list.
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* [React](https://reactjs.org/)
+* [React-ROUTER](https://reactrouter.com/)
 
-Setup: run ```npm i && npm start``` to start the development server
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Setup
+
+1. Clone this repo
+   ```sh
+   git clone https://github.com/Your_username/React-Maps-Travel.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Get API Key from
+```
+  https://console.cloud.google.com/apis/library/maps-backend.googleapis.com
+  https://rapidapi.com/apidojo/api/travel-advisor
+  https://rapidapi.com/community/api/open-weather-map
+```
+4. In folder create new file `.env` for setup config to assign API_Key
+   ```
+   REACT_APP_GOOGLE_MAP_API_KEY = API_KEY_GOOGLE_MAP;
+   REACT_APP_RAPID_API_TRAVEL_API_KEY = API_KEY_TRAVEL;
+   REACT_APP_RAPID_API_WEATHER_API_KEY = API_KEY_WEATHER;
+   ```
+
+<!-- How to Use Your Project -->
+## How to Use Your Project
+
+1. In folder run `npm run start` to start web application
+   ```sh
+   npm run start
+   ```
+2. Access site by http://localhost:3000/
+```
+http://localhost:3000/
+```
+
+<!-- Include Credits -->
+## Include Credits
+
+This project got inspire from https://www.youtube.com/watch?v=UKdQjQX1Pko
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@wedevtech](https://twitter.com/wedevtech) - werayoot5800@gmail.com
+
+Project Link: [https://github.com/Werayootk](https://github.com/Werayootk)
+
+Web site [https://werayootk.github.io/demo-portfolio/#/home](https://werayootk.github.io/demo-portfolio/#/home)
