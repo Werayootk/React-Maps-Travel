@@ -28,13 +28,12 @@
 
 ![](https://github.com/Werayootk/React-Maps-Travel/blob/main/images/map.PNG)
 
-This project create for practice React-ROUTER skill.
+This project create for practice React call API skill.
 
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [React](https://reactjs.org/)
-* [React-ROUTER](https://reactrouter.com/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
