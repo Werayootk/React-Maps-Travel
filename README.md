@@ -26,7 +26,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![](https://github.com/Werayootk/React-Maps-Travel/blob/main/images/map.PNG)
+![](https://github.com/Werayootk/React-Maps-Travel/blob/main/images/map.gif)
 
 This project create for practice React call API skill.
 
